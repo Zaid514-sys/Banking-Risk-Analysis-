@@ -149,6 +149,31 @@ Effectively combined SQL, Python, Excel, and Power BI to deliver a comprehensive
     indicating that Customers Who maintain High Balances in one account often hold substancial amount/funds across other accounts as well.
 
 
+# Power Query : -
+
+      Total_deposite = sum(Banking[Bank Deposits])+sum(Banking[Saving Accounts])+sum(Banking[Checking Accounts])+sum(Banking[Foreign Currency Account])
+
+      Total_Loan = SUM(Banking[Bank Loans])+SUM(Banking[Business Lending])+SUM(Banking[Credit Card Balance])
+
+      Joined_Bank = YEAR(Banking[Joined Bank])
+
+
+
+# Dash-Boards Power-BI 
+
+<img width="806" alt="image" src="https://github.com/user-attachments/assets/e1fa78cb-ac87-4911-849c-7aedcf347f7c" />
+
+<img width="810" alt="image" src="https://github.com/user-attachments/assets/f4d7923b-7066-4498-925b-8c0c110d8f48" />
+
+<img width="810" alt="image" src="https://github.com/user-attachments/assets/d192d269-86a8-4db9-8d04-2eec3ada3de8" />
+
+
+
+
+
+
+
+
 
 
 
